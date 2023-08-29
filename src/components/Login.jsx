@@ -125,7 +125,7 @@ function Login({ url }) {
                           {success ? "Successfully loggedin" : null}
                         </span>
                         <span className="text-danger fw-bold">
-                          {invalid ? "Invalid user" : null}
+                          {invalid ? "Invalid user/ Activate your account through mail" : null}
                         </span>
                       </p>
 
